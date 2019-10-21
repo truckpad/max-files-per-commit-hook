@@ -1,8 +1,10 @@
 # max-files-per-commit-hook
 
-Some out-of-the-box hooks for [pre-commit](https://pre-commit.com).
+Hook to limit max files on a single commit
 
-Add this to your .pre-commit-config.yaml
+> Make sure [pre-commit](https://pre-commit.com) is installed
+
+Add this to your `.pre-commit-config.yaml`
 
 ```yaml
 repos:
