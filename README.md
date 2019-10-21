@@ -8,7 +8,7 @@ Add this to your `.pre-commit-config.yaml`
 
 ```yaml
 repos:
--   repo: https://gitlab.com/TruckPad/opensource/max-files-per-commit-hook.git
+-   repo: https://github.com/truckpad/max-files-per-commit-hook
     rev: master
     hooks:
     -   id: max-files-per-commit
