@@ -15,7 +15,7 @@ def main(argv=None):
 
     repo = Repo('.')
     limit = args.limit if args.limit else DEFAULT_LIMIT
-    if len(repo.index.diff("HEAD")) <= int(limit):
+    if len(repo.index.diff("HEAD")) > int(limit):
         print('To unstage file use: "git reset HEAD <file>..."')
         return 1
     return 0
