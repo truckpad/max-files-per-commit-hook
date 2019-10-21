@@ -1,0 +1,6 @@
+repos:
+  - repo: https://github.com/truckpad/max-files-per-commit-hook
+    rev: master
+    hooks:
+      - id: max-files-per-commit
+        args: ['--limit=5']

@@ -1,0 +1,6 @@
+- id: max-files-per-commit
+  name: Max files per commit
+  description: This hooks fails if above limit files per commit
+  entry: max-files-per-commit
+  language: python
+  language_version: python3
